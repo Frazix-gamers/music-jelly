@@ -1,0 +1,11 @@
+{
+  "prefix": ">>",
+  "ksoftapi": "AIzaSyAAg3GHxipuyDz7KsCAv434yoFT56TR9LQ",
+  "youtubeCookie": "",
+  "spotify_api": {
+        "enabled": true, "_COMMENT_": "Set it to false, if you want to scrape, when on true you can get spotify playlists with 100+ Tracks",
+        "clientSecret": "053469ffeb3844079fab734ebf3090c2",
+        "clientId": "bf5ee2a72bae40ffadc71a47280e5ff9"
+  },
+  "loadSlashsGlobal": true, "_COMMENT_": "Set it to true, when your Slash Commands are ready, false loads instant true loads slow but stable! (GLOBAL/GUILD COMMANDS, DISCORD DOCS!)"
+}

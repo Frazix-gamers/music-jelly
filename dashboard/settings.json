@@ -1,0 +1,23 @@
+{
+    "website" : {
+      "support": "https://dsc.gg/cwf",
+      "domain": "http://localhost:3000"
+    },
+    "config": {
+        "http": {
+          "port": 3000
+        },
+        "https": {
+            "paths": {
+                "privkey": "/etc/letsencrypt/live/your-domain.com/privkey.pem",
+                "fullchain": "/etc/letsencrypt/live/your-domain.com/fullchain.pem",
+                "chain": "/etc/letsencrypt/live/your-domain.com/chain.pem"
+            },
+            "enabled": false,
+            "port": 443
+        },
+        "callback": "http://localhost:3000/callback",
+        "clientID": "833948735918702612",
+        "secret": "062yA5kVCNaCQ0GVg8-YyfRIRvhbPmgH"
+    }
+  }
